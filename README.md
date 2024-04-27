@@ -1,2 +1,2 @@
 # GoldenMathMinds
- YouTube Math 
+ Golden Math Minds - YouTube channel
