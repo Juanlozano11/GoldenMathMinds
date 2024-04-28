@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/3977891868_3427326026_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1704852926_91586748.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_2757876152_1084955206.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1704852926_579740230.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_2461925325_3457279939.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1704852926_901977433.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_3481302482_3508990146.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1704852926_2680215879.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1216780411_3290485850.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/media/videos/basic/1080p60/partial_movie_files/OpeningManim/2852726489_1704852926_401039050.mp4'
