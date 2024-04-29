@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/1185818338_727841494_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_2918628771_1210145320.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_1892940455_942734307.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_57657370_3705780382.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_125805757_484650389.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_3727292819_3695062055.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/GoldenRatio/624642324_1141282389_2844129829.mp4'
