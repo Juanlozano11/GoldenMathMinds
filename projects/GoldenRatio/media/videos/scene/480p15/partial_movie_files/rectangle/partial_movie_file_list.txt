@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/rectangle/1185818338_1659172726_223132457.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/GoldenRatio/media/videos/scene/480p15/partial_movie_files/rectangle/624642324_2509534217_1476881770.mp4'

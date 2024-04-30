@@ -49,4 +49,4 @@ class GoldenRatio(Scene):
         explanation.shift(RIGHT )
         self.play(Write(explanation))
 
-        self.wait(3)
+        self.wait(2)
