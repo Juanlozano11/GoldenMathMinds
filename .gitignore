@@ -1,4 +1,5 @@
-.gitattributes
-Shortcuts.md
-projects/test
+*.gitattributes
+
+*Shortcuts.md
+*projects/test
 
