@@ -1,5 +1,1 @@
-*.gitattributes
-
-*Shortcuts.md
-*projects/test
-
+*.DS_Store
