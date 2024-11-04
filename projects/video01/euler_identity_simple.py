@@ -49,6 +49,7 @@ class EulerIdentityWithGoldenMath(Scene):
         # Show point at -1 and clear the screen for focus
         pi_point = Dot(plane.c2p(-1, 0), color=RED)
         self.play(FadeOut(euler_formula_at_pi), FadeOut(plane), FadeOut(pi_text), FadeOut(trace_path), FadeOut(rotating_dot),FadeOut(angle_label), FadeIn(pi_point))
+        self.play(FadeOut(rotating_dot))
         self.play(FadeOut(pi_point))
         
         # Display e^(iπ) = -1
