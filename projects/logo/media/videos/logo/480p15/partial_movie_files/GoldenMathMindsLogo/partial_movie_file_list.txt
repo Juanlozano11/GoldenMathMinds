@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/1185818338_111855766_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1085447510_1745182012.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1959358871_86600392.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_244945024_3793434909.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_3890345977_4255400068.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/logo/media/videos/logo/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1141282389_487231427.mp4'

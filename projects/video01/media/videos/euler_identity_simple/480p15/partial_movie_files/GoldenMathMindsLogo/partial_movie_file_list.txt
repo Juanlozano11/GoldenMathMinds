@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/1185818338_4187076242_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1959358871_469126838.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_764332461_4112627876.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_3710302038_2419683787.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_3890345977_2079738978.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1397388782_2592552303.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_1141282389_1287932309.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_292770138_954134372.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_428801557_3630524697.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video01/media/videos/euler_identity_simple/480p15/partial_movie_files/GoldenMathMindsLogo/624642324_2475379470_2571041062.mp4'

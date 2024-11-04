@@ -2,84 +2,71 @@
 ## run: manim -pql euler_identity_simple.py EulerIdentityExplanation
 
 from manim import *
+import numpy as np
 
-class CreativeEulerExplanation(Scene):
+class EulerIdentityWithClearFocus(Scene):
     def construct(self):
-        # Initial title and introduction
-        title = Text("Exploring Euler's Identity", font_size=48, color=YELLOW).to_edge(UP)
-        self.play(Write(title))
-        self.wait(1)
-
-        # Introduction text and first function
-        intro_text = Text("Consider this function: ", font_size=24).next_to(title, DOWN)
+        # Step 1: Set up the complex plane
+        plane = ComplexPlane().add_coordinates()
+        self.play(Create(plane))
+        
+        # Step 2: Introduce Euler's Formula with introductory text
+        intro_text = Text("Let's see how this equation looks on a graph!", font_size=36).to_edge(UP)
         self.play(Write(intro_text))
-        self.wait(1)
-
-        formula1 = MathTex(r"f(x) = \left(1 + \frac{1}{x}\right)^x", font_size=48).set_color(TEAL).to_edge(UP).shift(RIGHT * 2)
-        self.play(FadeOut(intro_text), Write(formula1))
-        self.wait(1)
-
-        # Set up axes with labels and numerical ticks
-        axes = Axes(
-            x_range=[1, 50, 5], y_range=[0, 3, 0.5],
-            x_length=7, y_length=5,
-            axis_config={"color": GREY}
-        ).shift(DOWN)
-
-        # Numerical labels for x and y axes
-        x_label = axes.get_x_axis_label(r"x", direction=DOWN)
-        y_label = axes.get_y_axis_label(r"f(x)", direction=LEFT)
-        axes_labels = VGroup(x_label, y_label)
         
-        graph1 = axes.plot(lambda x: (1 + 1/x)**x, x_range=[1, 50], color=BLUE)
-
-        # Display first graph with explanation text
-        expl_text1 = Text("As x grows, f(x) approaches a special constant.", font_size=24).next_to(formula1, DOWN)
+        euler_formula = MathTex("e^{ix} = \\cos(x) + i \\sin(x)", font_size=48)
+        euler_formula.next_to(intro_text, DOWN)
+        self.play(Write(euler_formula))
         
-        self.play(Create(axes), Write(axes_labels))
-        self.play(Create(graph1), Write(expl_text1))
-        self.wait(2)
+        # Step 3: Trace e^(ix) as x varies from 0 to 2π
+        angle_tracker = ValueTracker(0)
+        rotating_dot = Dot(color=YELLOW).move_to(plane.c2p(1, 0))  # Start at (1,0)
+        trace_path = TracedPath(rotating_dot.get_center, stroke_color=BLUE, stroke_width=4)
 
-        # Transition to (1 + pi/x)^x
-        self.play(FadeOut(graph1), FadeOut(expl_text1))
-        formula2 = MathTex(r"f(x) = \left(1 + \frac{\pi}{x}\right)^x", font_size=48).set_color(GREEN).to_edge(UP).shift(RIGHT * 2)
-        expl_text2 = Text("Now, let's use π instead of 1.", font_size=24).next_to(formula2, DOWN)
-        self.play(Transform(formula1, formula2), Write(expl_text2))
-        self.wait(1)
+        # Angle label
+        angle_label = always_redraw(lambda: MathTex(
+            f"e^{{i{np.round(angle_tracker.get_value(), 2)} }}",
+            font_size=36,
+            color=WHITE).next_to(rotating_dot, UP)
+        )
 
-        # Plot (1 + pi/x)^x
-        graph2 = axes.plot(lambda x: (1 + np.pi / x)**x, x_range=[1, 50], color=GREEN)
-        pi_approx_label = MathTex(r"\left(1 + \frac{\pi}{x}\right)^x", font_size=36, color=GREEN).next_to(graph2, UP)
-
-        self.play(Create(graph2), Write(pi_approx_label))
-        self.wait(2)
-
-        # Transition to complex (1 + i*pi/x)^x
-        self.play(FadeOut(graph2), FadeOut(pi_approx_label), FadeOut(expl_text2))
-        formula3 = MathTex(r"f(x) = \left(1 + \frac{i \pi}{x}\right)^x", font_size=48).set_color(PURPLE).to_edge(UP).shift(RIGHT * 2)
-        expl_text3 = Text("What happens when we add an imaginary component?", font_size=24).next_to(formula3, DOWN)
-        self.play(Transform(formula1, formula3), Write(expl_text3))
-        self.wait(1)
-
-        # Plot (1 + i*pi/x)^x for different values of x
-        complex_graphs = VGroup()
-        for x_val in [1, 5, 10, 20, 50]:
-            complex_point = Dot(axes.c2p(x_val, np.abs((1 + 1j * np.pi / x_val)**x_val)), color=PURPLE)
-            complex_graphs.add(complex_point)
-            self.play(FadeIn(complex_point), run_time=0.5)
+        # Animate rotation and trace path
+        self.add(trace_path, rotating_dot, angle_label)
+        self.play(angle_tracker.animate.set_value(2 * np.pi), Rotate(rotating_dot, angle=2 * np.pi, about_point=plane.c2p(0, 0)), run_time=6)
         
-        # Display all points for the complex function at various values of x
-        self.play(ShowIncreasingSubsets(complex_graphs), run_time=2)
-        self.wait(1)
-
-        # Clear elements and introduce Euler's Identity
-        self.play(FadeOut(title), FadeOut(axes), FadeOut(complex_graphs), FadeOut(formula1), FadeOut(expl_text3))
-        euler_identity = MathTex("e^{i\\pi} + 1 = 0", font_size=72).set_color(WHITE).move_to(ORIGIN).shift(UP * 1.5 + RIGHT * 1.5)
-        outro = Text("The beauty of Euler's Identity!", font_size=36, color=YELLOW)
-        outro.next_to(euler_identity, DOWN)
-
-        self.play(Write(euler_identity))
-        self.play(Write(outro))
+        # Step 4: Replace x with π and show e^(iπ) = -1
+        self.play(FadeOut(intro_text), FadeOut(trace_path), FadeOut(angle_label))
+        pi_text = Text("Now, let's replace x with π.", font_size=36).to_edge(UP)
+        self.play(Write(pi_text))
+        
+        self.play(angle_tracker.animate.set_value(np.pi), Rotate(rotating_dot, angle=np.pi, about_point=plane.c2p(0, 0)), run_time=3)
+        
+        # Show point at -1 and clear the screen for focus
+        pi_point = Dot(plane.c2p(-1, 0), color=RED)
+        self.play(FadeOut(euler_formula), FadeOut(plane), FadeIn(pi_point))
+        
+        # Step 5: Display e^(iπ) = -1
+        final_step = MathTex("e^{i \\pi} = -1", font_size=72).to_edge(DOWN)
+        self.play(Write(final_step))
+        
+        # Step 6: Add 1 to both sides
+        add_one_text = Text("Adding 1 to both sides...", font_size=36).next_to(final_step, UP)
+        self.play(Write(add_one_text))
+        
+        final_equation = MathTex("e^{i \\pi} + 1 = 0", font_size=72)
+        self.play(Transform(final_step, final_equation), FadeOut(add_one_text))
+        
+        # Step 7: Explanation text of significance
+        explanation = Text("This equation relates the 5 most important numbers in math", font_size=36, color=YELLOW).to_edge(UP)
+        beauty_text = Text("It's a beautiful balance between different areas of math!", font_size=32).next_to(explanation, DOWN)
+        
+        self.play(Write(explanation))
+        self.play(Write(beauty_text))
+        
+        # Step 8: Emphasize the final result
+        box = SurroundingRectangle(final_equation, color=GOLD, buff=0.5)
+        self.play(Create(box))
         self.wait(2)
-
-        self.play(FadeOut(euler_identity), FadeOut(outro))
+        
+        # Fade out to end
+        self.play(FadeOut(VGroup(final_step, box, pi_point, explanation, beauty_text)))
