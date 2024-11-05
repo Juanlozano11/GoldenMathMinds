@@ -1,65 +1,126 @@
 ## Path: cd Desktop/Math/GoldenMathMinds/projects/video02
 ## run: manim -pql goldenratio.py GoldenRatio
-
+## Use code form https://gitlab.com/cw-manim/fibonacci-sequence
 
 from manim import *
 
-class GoldenRatioIntroduction(Scene):
+class GoldenRatioFibonacciSpiral(Scene):
     def construct(self):
-        # Step 1: Display the golden ratio symbol and its value
-        golden_ratio_text = MathTex(r"\phi \approx 1.618", font_size=72)
-        golden_ratio_text.set_color(YELLOW)
-        title = Text("The Golden Ratio", font_size=48).next_to(golden_ratio_text, UP)
-        
+        # Step 1: Title Introduction
+        title = Text("The Golden Ratio", font_size=44, gradient=(YELLOW, ORANGE, GOLD))
         self.play(Write(title))
-        self.play(Write(golden_ratio_text))
+        self.wait(1)
+
+        # Step 2: Show the Golden Ratio Identity
+        identity = MathTex(r"\frac{a+b}{a} = \frac{a}{b} = \varphi \approx 1.618", font_size=48)
+        identity.next_to(title, DOWN)
+        explanation = Text("This number is the only one that makes this ratio true", font_size=24)
+        explanation.next_to(identity, DOWN)
+        
+        # Display the Golden Ratio identity and explanation
+        self.play(Write(identity))
+        self.wait(1)
+        self.play(Write(explanation))
+        self.wait(1)
+        
+        # Step 3: Transition to Fibonacci Sequence
+        fib_title = Text("This number appears in the Fibonacci Sprial", font_size=36).to_edge(UP)
+        self.play(ReplacementTransform(title, fib_title), FadeOut(identity), FadeOut(explanation))
         self.wait(2)
+        self.play(FadeOut(fib_title))
+
         
-        # Step 2: Introduce it as a special number like pi
-        comparison_text = Text("Just like π, this is a very special number.", font_size=36)
-        comparison_text.next_to(golden_ratio_text, DOWN)
-        
-        self.play(Write(comparison_text))
-        self.wait(2)
-        
-        # Step 3: Ask where the number comes from
-        question_text = Text("Where does this number come from?", font_size=36)
-        self.play(FadeOut(comparison_text), FadeOut(title), golden_ratio_text.animate.shift(UP))
-        self.play(Write(question_text))
-        self.wait(2)
-        
-        # Step 4: Show Fibonacci sequence leading to the Golden Ratio
-        fibonacci_text = Text("It appears in the Fibonacci Sequence...", font_size=36)
-        fibonacci_text.shift(DOWN * 1.5)
-        
-        self.play(FadeOut(question_text))
-        self.play(Write(fibonacci_text))
-        
-        # Show a quick representation of the Fibonacci sequence
-        fibonacci_sequence = VGroup(
-            MathTex("1,", "1,", "2,", "3,", "5,", "8,", "13,", "21,", "34,", "55..."),
+
+        squares = VGroup(Square(1 * 0.3))
+        next_dir = [RIGHT, UP, LEFT, DOWN]
+        FSeq = [1, 2, 3, 5, 8, 13, 21]
+
+        for j, i in enumerate(FSeq):
+            d = next_dir[j % 4]
+            squares.add(Square(i * 0.3).next_to(squares, d, buff=0))
+
+        squares.center()
+
+        direction = [1, -1, -1, 1]
+        corner = [[UL, -UL], [UR, -UR]]
+        spiral = VGroup()
+
+        for j, i in enumerate(squares):
+            c = corner[j % 2]
+            d = direction[j % 4]
+            arc = ArcBetweenPoints(
+                i.get_corner(c[0]),
+                i.get_corner(c[1]),
+                angle=PI / 2 * d,
+                color="#04d9ff",
+                stroke_width=6,
+            )
+            if direction[j % 4] != 1:
+                arc = arc.reverse_direction()
+            spiral.add(arc)
+
+        self.play(
+            LaggedStart(
+                FadeIn(squares, lag_ratio=1), Create(spiral, lag_ratio=1), run_time=5
+            )
         )
-        fibonacci_sequence.arrange(RIGHT, buff=0.3).next_to(fibonacci_text, DOWN)
         
-        self.play(Write(fibonacci_sequence))
-        self.wait(3)
+        self.wait()
         
-        # Step 5: Display examples of Golden Ratio in nature and art
-        nature_text = Text("...in nature,", font_size=36, color=GREEN).shift(UP * 1.5)
-        art_text = Text("...and in art & architecture.", font_size=36, color=BLUE).next_to(nature_text, DOWN)
-        
-        self.play(FadeOut(fibonacci_sequence), FadeOut(fibonacci_text))
-        self.play(Write(nature_text))
+        self.play(squares.animate.scale(1.2).set_color(ORANGE) , spiral.animate.scale(1.2).set_color(ORANGE))
+        self.play(FadeOut(squares), Uncreate(spiral[::-1]), run_time=1.5)
+
+        # Step 5: Create Golden Ratio Explanation with Rectangles and Expression
+        final_explanation = Text("Each square follows the Golden Ratio", font_size=30, color=YELLOW)
+        ratio_expression = MathTex(r"\frac{a+b}{a} = \frac{a}{b}", font_size=40, color=BLUE)
+        ratio_expression.next_to(final_explanation, DOWN)
+
+        self.play(Write(final_explanation), Write(ratio_expression))
+        self.play(final_explanation.animate.scale(1.2), ratio_expression.animate.scale(1.2))
         self.wait(2)
-        self.play(Write(art_text))
-        self.wait(2)
+        self.play(FadeOut(final_explanation), FadeOut(ratio_expression))
         
-        # Step 6: Conclude with its importance
-        importance_text = Text("The Golden Ratio reveals patterns and beauty everywhere.", font_size=32).shift(DOWN * 1.5)
+
+
+        # Golden Ratio Spiral (one smooth rotation)
+        spiral = ParametricFunction(
+            lambda t: np.array([np.cos(t) * (1.618 ** (t / (2 * np.pi))),
+                                np.sin(t) * (1.618 ** (t / (2 * np.pi))),
+                                0]),
+            t_range=[0, 2 * PI],
+            color=TEAL_A
+        ).scale(0.5).shift(LEFT)
         
-        self.play(FadeOut(nature_text), FadeOut(art_text))
-        self.play(Write(importance_text))
-        self.wait(3)
+        # Dot tracing part of the spiral, stopping midway
+        trace_dot = Dot(color=MAROON_A).move_to(spiral.get_start())
+        halfway_point = spiral.point_from_proportion(0.5)
         
-        # End scene
-        self.play(FadeOut(importance_text), FadeOut(golden_ratio_text))
+        # Euler's Identity with elegant text
+        euler_identity = MathTex("e^{i\\pi} + 1 = 0", color=WHITE).scale(1.3).next_to(trace_dot, 3 * DOWN, buff=0.3)
+
+        # "Golden Math Minds" with gradient effect
+        logo_text = Text("Golden Math Minds", font_size=44, gradient=(YELLOW, ORANGE, GOLD))
+        logo_text.next_to(euler_identity, 2.5 * DOWN, buff=0.3)
+
+        # Animations
+        self.play(Create(spiral), MoveAlongPath(trace_dot, spiral, rate_func=linear), run_time=2.5)
+        self.play(trace_dot.animate.move_to(halfway_point), run_time=1)
+        self.play(Write(euler_identity), run_time=1.2)
+        self.wait(0.5)
+        self.play(Write(logo_text))
+        self.wait(1.5)
+
+        # Final cool ending animation
+        self.play(
+            FadeOut(logo_text),
+            FadeOut(euler_identity),
+            spiral.animate.scale(0.1).move_to(ORIGIN),
+            trace_dot.animate.scale(0.1).move_to(ORIGIN),
+            run_time=2
+        )
+
+        # Hold briefly
+        self.wait(0.8)
+
+
+
