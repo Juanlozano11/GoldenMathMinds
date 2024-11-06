@@ -74,16 +74,23 @@ class SineAndCosineWithTangentTrace(Scene):
 
         # Display the value of cos(x) near the cosine trace in red
         cos_value_display = always_redraw(
-            lambda: MathTex(f"cos(x) = {round(np.cos(x_tracker.get_value() + phase_tracker.get_value()), 2)}", color=RED).scale(0.5)
+            lambda: MathTex(f"f'(x) = {round(np.cos(x_tracker.get_value() + phase_tracker.get_value()), 2)}", color=RED).scale(0.5)
             .next_to(axes.c2p(x_tracker.get_value(), np.cos(x_tracker.get_value() + phase_tracker.get_value())), UP, buff=0.3)
         )
 
         # Animation
         self.play(Write(axes), Write(x_label), Write(y_label))
         self.play(Create(sine_curve), run_time=2)
+        self.wait(0.3)
 
         # Add the dot, tangent line, cosine trace, x value display, and cos(x) value display
         self.add(moving_dot, tangent_line, cosine_trace, x_value_display, cos_value_display)
+        
+        # Position t1 below the axes
+        t1 = Text("Notice that this new function differs slightly from sin(x), only by a phase shift")
+        
+        t1.to_edge(DOWN)
+        
         
         # Animate the sine wave with color shift and move the dot across the curve
         self.play(
@@ -93,23 +100,89 @@ class SineAndCosineWithTangentTrace(Scene):
             rate_func=linear
         )
 
+        self.play(Write(t1.scale(0.5)))  # Adjust scale and animate
+        self.wait(2) 
+
         # Shift the cosine trace by -π/2 smoothly
         self.play(phase_tracker.animate.set_value(-PI / 2), run_time=2)
         self.wait(1)
-        
-        # Shift it back to the original position
+
+        # Replace t1 with a new explanatory text
+        self.play(FadeOut(t1))  # Fade out the previous text smoothly
+
+        # Position t2 below the axes, same as t1
+        t2 = Text("This shows that this path is just the derivative of sin(x), shifted by -π/2, making it cos(x).")
+        t2.to_edge(DOWN)  # Position t2 at the bottom of the screen
+        self.play(Write(t2.scale(0.5)))
+        self.wait(2)  # Pause for readability
+
+        # Shift the cosine trace back to its original position
         self.play(phase_tracker.animate.set_value(0), run_time=2)
+        self.wait(1)
 
-        # Keep the animation running for a few seconds
-        self.wait(2)
+        # Fade out the explanatory text before the final clean-up
+        self.play(FadeOut(t2))
 
+        # Clean up the scene smoothly by fading out remaining elements
+        self.play(Uncreate(moving_dot), Uncreate(tangent_line), Uncreate(sine_curve), Uncreate(cosine_trace))
+        self.play(FadeOut(axes), FadeOut(x_label), FadeOut(y_label), *[FadeOut(label) for label in labels.values()])
+        self.play(Uncreate(cos_value_display), Uncreate(x_value_display))
 
-        self.play(Uncreate(moving_dot), Uncreate(tangent_line))
-        self.play(Uncreate(sine_curve))
-
+        # Position t3 at the top for the concluding statement
+        t3 = MathTex(r"\text{Thus, we have found that the derivative of } \sin(x) \text{ is } \cos(x):")
+        t4 = MathTex(r"f'(x) = \frac{d}{dx} \sin(x) = \cos(x)")
+        t3.to_edge(UP)  # Position t3 at the top of the screen
         
 
+        self.play(Write(t3))
+         # Short pause to allow reading
+        
+        self.play(Write(t4), Write(t3))
+        self.play(Uncreate(t3), Uncreate(t4))
         
 
 
+
+
+
+
+        # Golden Ratio Spiral (one smooth rotation)
+        spiral = ParametricFunction(
+            lambda t: np.array([np.cos(t) * (1.618 ** (t / (2 * np.pi))),
+                                np.sin(t) * (1.618 ** (t / (2 * np.pi))),
+                                0]),
+            t_range=[0, 2 * PI],
+            color=TEAL_A
+        ).scale(0.5).shift(LEFT)
+        
+        # Dot tracing part of the spiral, stopping midway
+        trace_dot = Dot(color=MAROON_A).move_to(spiral.get_start())
+        halfway_point = spiral.point_from_proportion(0.5)
+        
+        # Euler's Identity with elegant text
+        euler_identity = MathTex("e^{i\\pi} + 1 = 0", color=WHITE).scale(1.3).next_to(trace_dot, 3 * DOWN, buff=0.3)
+
+        # "Golden Math Minds" with gradient effect
+        logo_text = Text("Golden Math Minds", font_size=44, gradient=(YELLOW, ORANGE, GOLD))
+        logo_text.next_to(euler_identity, 2.5 * DOWN, buff=0.3)
+
+        # Animations
+        self.play(Create(spiral), MoveAlongPath(trace_dot, spiral, rate_func=linear), run_time=2.5)
+        self.play(trace_dot.animate.move_to(halfway_point), run_time=1)
+        self.play(Write(euler_identity), run_time=1.2)
+        self.wait(0.5)
+        self.play(Write(logo_text))
+        self.wait(1.5)
+
+        # Final cool ending animation
+        self.play(
+            FadeOut(logo_text),
+            FadeOut(euler_identity),
+            spiral.animate.scale(0.1).move_to(ORIGIN),
+            trace_dot.animate.scale(0.1).move_to(ORIGIN),
+            run_time=2
+        )
+
+        # Hold briefly
+        self.wait(0.8)
 
