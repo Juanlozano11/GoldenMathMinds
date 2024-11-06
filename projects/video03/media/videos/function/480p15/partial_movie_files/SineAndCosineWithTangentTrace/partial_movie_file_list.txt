@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/1185818338_386279640_2069223759.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_2221403206_2206033699.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_1951541483_3336842933.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_3619412013_2410108120.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_3890345977_3622901243.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_1399804362_597686262.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_1141282389_986252953.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_3434530458_2095805734.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_686187986_4277183279.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_4204794704_3922285120.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_1141282389_226415970.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTrace/624642324_3325262806_4017110852.mp4'

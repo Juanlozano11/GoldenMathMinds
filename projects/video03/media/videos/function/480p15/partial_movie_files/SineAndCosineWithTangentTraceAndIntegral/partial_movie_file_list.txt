@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/1185818338_386279640_2069223759.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/624642324_2221403206_2206033699.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/624642324_1951541483_3659426824.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/624642324_2199780534_2927029565.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/624642324_1141282389_144017227.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineAndCosineWithTangentTraceAndIntegral/624642324_3116255586_197395635.mp4'

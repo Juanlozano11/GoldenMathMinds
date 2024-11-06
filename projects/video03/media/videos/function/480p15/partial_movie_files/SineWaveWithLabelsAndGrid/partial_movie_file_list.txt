@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineWaveWithLabelsAndGrid/1185818338_630463670_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineWaveWithLabelsAndGrid/624642324_2141548997_1900138718.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineWaveWithLabelsAndGrid/624642324_2065320898_529716316.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineWaveWithLabelsAndGrid/624642324_1000525384_920269142.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineWaveWithLabelsAndGrid/624642324_1141282389_2321882311.mp4'

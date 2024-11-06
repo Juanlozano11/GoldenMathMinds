@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineCosineWithTangentAndIntegral/1185818338_3844482517_2069223759.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineCosineWithTangentAndIntegral/624642324_3355798102_3468554578.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineCosineWithTangentAndIntegral/624642324_3275078483_2508681238.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineCosineWithTangentAndIntegral/624642324_1141282389_1336485829.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video03/media/videos/function/480p15/partial_movie_files/SineCosineWithTangentAndIntegral/624642324_3341981971_388794697.mp4'
