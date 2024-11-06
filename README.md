@@ -15,6 +15,8 @@ Topics Covered
 	•	Conceptual Explanations: Understand concepts like the Sunk Cost Fallacy or proportions in geometry.
 	•	Applications of Math: See how math principles show up in real life, nature, and art.
 
+How It’s Made
 
+Golden Math Minds uses Manim (Mathematical Animation Engine) to create visually engaging animations that bring mathematical concepts to life. Manim allows for precise control over animations, making it ideal for illustrating complex math ideas in a clear and captivating way. Code snippets and explanations for each video are available on https://github.com/Juanlozano11/GoldenMathMinds so you can learn how to create your own animations and dive deeper into the math behind the visuals.
 
-                                                                                                Using Manim, each video brings abstract math to life with animations.
+                                                                                               
