@@ -15,6 +15,6 @@ Topics Covered
 	•	Conceptual Explanations: Understand concepts like the Sunk Cost Fallacy or proportions in geometry.
 	•	Applications of Math: See how math principles show up in real life, nature, and art.
 
-How It’s Made
+
 
                                                                                                 Using Manim, each video brings abstract math to life with animations.
