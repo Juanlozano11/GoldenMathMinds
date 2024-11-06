@@ -111,7 +111,7 @@ class SineAndCosineWithTangentTrace(Scene):
         self.play(FadeOut(t1))  # Fade out the previous text smoothly
 
         # Position t2 below the axes, same as t1
-        t2 = Text("This shows that this path is just the derivative of sin(x), shifted by -π/2, making it cos(x).")
+        t2 = Text("This shows that this path is just sin(x), shifted by π/2, making it cos(x).")
         t2.to_edge(DOWN)  # Position t2 at the bottom of the screen
         self.play(Write(t2.scale(0.5)))
         self.wait(2)  # Pause for readability
@@ -129,15 +129,17 @@ class SineAndCosineWithTangentTrace(Scene):
         self.play(Uncreate(cos_value_display), Uncreate(x_value_display))
 
         # Position t3 at the top for the concluding statement
-        t3 = MathTex(r"\text{Thus, we have found that the derivative of } \sin(x) \text{ is } \cos(x):")
+        t3 = MathTex(r"\text{Thus, we have found that this path is the derivative of } \sin(x) \text{ is } \cos(x):")
+
         t4 = MathTex(r"f'(x) = \frac{d}{dx} \sin(x) = \cos(x)")
         t3.to_edge(UP)  # Position t3 at the top of the screen
         
 
-        self.play(Write(t3))
+        
          # Short pause to allow reading
         
-        self.play(Write(t4), Write(t3))
+        self.play(Write(t4), Write(t3.scale(0.7)))
+        self.play(Wait(2))
         self.play(Uncreate(t3), Uncreate(t4))
         
 
