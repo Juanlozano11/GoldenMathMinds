@@ -1,4 +1,4 @@
-## path : cd Desktop/Math/GoldenMathMinds/projects/video03
+## path : cd Desktop/Math/GoldenMathMinds/projects/video05
 ## run :  manim -pql gcdproof.py BezoutsIdentityProof
 
 
