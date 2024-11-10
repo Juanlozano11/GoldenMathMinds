@@ -88,7 +88,7 @@ class BezoutsIdentityProof(Scene):
         self.play(FadeOut(box), FadeOut(conclusion), FadeOut(qed))
 
         # Pause to enjoy the final clean scene
-        self.wait(3)
+        self.wait(0.3)
 
 
          # Golden Ratio Spiral (one smooth rotation)

@@ -19,7 +19,7 @@ file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_264404465_438379454.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_3326888872_3295924479.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_4095999791_1298806993.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_2475379470_2718691004.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_3317210433_2718691004.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_788430582_1643972783.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_3220553507_4217113176.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video05/media/videos/gcdproof/480p15/partial_movie_files/BezoutsIdentityProof/624642324_2414826448_146437064.mp4'
