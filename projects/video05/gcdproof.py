@@ -78,9 +78,11 @@ class BezoutsIdentityProof(Scene):
         # Scaling effect for emphasis
         self.play(box.animate.scale(1.1).shift(DOWN * 0.2), conclusion.animate.scale(1.1).shift(DOWN * 0.2))
 
-        # Final celebratory QED symbol with adjusted placement
+         # Final celebratory QED symbol with adjusted placement
         qed = Tex(r"$\blacksquare$").set_color(YELLOW).scale(1.2).next_to(conclusion, DOWN, buff=0.2)
-        qed.to_corner(DR, buff=0.5)
+
+        # Move the QED symbol to the bottom-right (DR) corner with additional rightward adjustment
+        qed.to_corner(DR, buff=0.7).shift(RIGHT * 0.5)
         self.play(Write(qed))
 
         # Clear everything else for a clean, focused final view
