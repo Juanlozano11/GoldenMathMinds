@@ -82,7 +82,7 @@ class BezoutsIdentityProof(Scene):
         qed = Tex(r"$\blacksquare$").set_color(YELLOW).scale(1.2).next_to(conclusion, DOWN, buff=0.2)
 
         # Move the QED symbol to the bottom-right (DR) corner with additional rightward adjustment
-        qed.to_corner(DR, buff=0.7).shift(RIGHT * 0.5)
+        qed.to_corner(DR, buff=0.7).shift(LEFT * 0.5)
         self.play(Write(qed))
 
         # Clear everything else for a clean, focused final view
