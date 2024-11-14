@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/trading/media/videos/tradingtable/480p15/partial_movie_files/TraderComparison/1185818338_3397359804_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/trading/media/videos/tradingtable/480p15/partial_movie_files/TraderComparison/624642324_1141282389_3921684311.mp4'
