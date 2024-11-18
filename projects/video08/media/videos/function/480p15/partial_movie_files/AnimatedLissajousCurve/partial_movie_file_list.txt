@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/1185818338_420446514_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_1636857371_538290996.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_366503420_338879765.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_2379909225_2908235189.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_2547648876_2754241383.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_433318790_374711542.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_1141282389_1226633151.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video08/media/videos/function/480p15/partial_movie_files/AnimatedLissajousCurve/624642324_2321745726_2440449203.mp4'
