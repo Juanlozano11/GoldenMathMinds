@@ -12,9 +12,9 @@ class UnionSetOperation(Scene):
         self.wait(1)
 
         # Circles representing sets
-        circle_A = Circle(radius=2, color=RED).shift(LEFT * 2)
+        circle_A = Circle(radius=2, color=RED).shift(LEFT * 1)
         label_A = Text("A", color=RED).next_to(circle_A, UP)
-        circle_B = Circle(radius=2, color=GREEN).shift(RIGHT * 2)
+        circle_B = Circle(radius=2, color=GREEN).shift(RIGHT * 1)
         label_B = Text("B", color=GREEN).next_to(circle_B, UP)
 
         # Display circles
@@ -24,7 +24,7 @@ class UnionSetOperation(Scene):
 
         # Highlight set A
         set_A = circle_A.copy().set_fill(RED, opacity=0.5)
-        label_set_A = Text("Only A", font_size=36, color=RED).shift(DOWN * 3)
+        label_set_A = Text("A", font_size=36, color=RED).shift(DOWN * 3)
         self.play(FadeIn(set_A))
         self.play(Write(label_set_A))
         self.wait(1)
@@ -32,7 +32,7 @@ class UnionSetOperation(Scene):
 
         # Highlight set B
         set_B = circle_B.copy().set_fill(GREEN, opacity=0.5)
-        label_set_B = Text("Only B", font_size=36, color=GREEN).shift(DOWN * 3)
+        label_set_B = Text("B", font_size=36, color=GREEN).shift(DOWN * 3)
         self.play(FadeIn(set_B))
         self.play(Write(label_set_B))
         self.wait(1)
