@@ -1,4 +1,4 @@
-## path : cd Desktop/Math/GoldenMathMinds/projects/video09
+## path : cd Desktop/Math/GoldenMathMinds/projects/video10
 ## run :  manim -pql setop.py UnionSetOperation
 
 
@@ -51,7 +51,7 @@ class UnionSetOperation(Scene):
 
         # Explaining union
         explanation = Text(
-            "The union of A and B contains all elements in A or B (or both).",
+            "",
             font_size=24
         ).next_to(union_label, DOWN)
 
