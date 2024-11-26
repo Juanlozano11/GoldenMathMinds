@@ -1,4 +1,4 @@
-## path : cd Desktop/Math/GoldenMathMinds/projects/video09
+## path : cd Desktop/Math/GoldenMathMinds/projects/video11
 ## run :  manim -pql equation.py SimpleMathProblem
 
 
