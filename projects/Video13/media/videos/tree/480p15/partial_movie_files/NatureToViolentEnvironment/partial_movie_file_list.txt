@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/1185818338_2226162440_223132457.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/624642324_3890345977_4082589223.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/624642324_1850363959_3901771976.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/624642324_1959358871_3934495473.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/624642324_2013629377_4034360685.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/NatureToViolentEnvironment/624642324_3890345977_488292400.mp4'
