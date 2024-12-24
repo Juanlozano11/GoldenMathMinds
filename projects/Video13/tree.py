@@ -80,7 +80,7 @@ class ViolentTransitionTree(Scene):
         self.play(Transform(cloud1, dark_cloud1), Transform(cloud2, dark_cloud2), run_time=1.5)
         self.wait()
         text1 = Text("", font_size=36, color=BLUE)
-        text = Text("La naturaleza es hermosa pero el contexto determinar su color", font_size=36, color=BLUE)
+        text = Text("La naturaleza es hermosa pero el contexto determina su color", font_size=36, color=BLUE)
         self.play(Create(text1))
         self.play(Create(text))
         

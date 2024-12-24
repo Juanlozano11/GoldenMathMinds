@@ -9,5 +9,5 @@ file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_1830877139_1241398068.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_1704852926_3050798551.mp4'
 file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_3531182809_1491659655.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_222841753_375653872.mp4'
-file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_1215976797_1877231258.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_3775560131_375653872.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/Video13/media/videos/tree/480p15/partial_movie_files/ViolentTransitionTree/624642324_1215976797_2517821542.mp4'
