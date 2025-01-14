@@ -14,7 +14,7 @@ class AnotherMathVisualization(Scene):
 
         # Display a new math equation with gradient color
         # Display a new math equation with gradient color
-        problem = MathTex(r"\prod_{n=1}^\infty \left(1 + \frac{1}{n^2}\right) = \frac{\sinh(\pi)}{\pi}", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
+        problem = MathTex(r"\prod_{n=1}^\infty \left(1 + \frac{1}{n^2}\right) = \frac{\sinh(\pi)}{\pi}", font_size=48).set_color_by_gradient(PINK, PURE_BLUE, BLUE_D)
         self.play(FadeIn(problem, shift=DOWN))
         self.play(problem.animate.scale(1.3))
         self.wait(3)

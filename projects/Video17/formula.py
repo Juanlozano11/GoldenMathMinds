@@ -14,7 +14,8 @@ class AnotherMathVisualization(Scene):
 
         # Display a new math equation with gradient color
         # Display a new math equation with gradient color
-        problem = MathTex(r"\prod_{n=1}^\infty \left(1 + \frac{1}{n^2}\right)", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
+        # Changing to a geometric series problem
+        problem = MathTex(r"\prod_{n=1}^\infty \left(1 + \frac{1}{n^2}\right)" , font_size=48).set_color_by_gradient(GREEN, BLUE)
         self.play(FadeIn(problem, shift=DOWN))
         self.play(problem.animate.scale(1.3))
         self.wait(3)
