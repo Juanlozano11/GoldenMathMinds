@@ -1,4 +1,4 @@
-## Path: cd Desktop/Math/GoldenMathMinds/projects/video15
+## Path: cd Desktop/Math/GoldenMathMinds/projects/video17
 ## run: manim -pql formula.py AnotherMathVisualization
 
 from manim import *
@@ -6,17 +6,19 @@ from manim import *
 class AnotherMathVisualization(Scene):
     def construct(self):
         # Title text: "Ready for a challenge?" with gradient color
-        title = Text("Ready for a challenge?", font_size=48).set_color_by_gradient(RED, ORANGE, GOLD)
+        title = Text("Solution!!", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
         self.play(Write(title))
         
         # Move title up and enlarge it slightly
         self.play(title.animate.shift(UP * 2).scale(1.3))
 
         # Display a new math equation with gradient color
-        problem = MathTex(r"\int_0^\infty e^{-x^2} \ ", font_size=48).set_color_by_gradient(TEAL_B, GREEN, YELLOW)
+        # Display a new math equation with gradient color
+        problem = MathTex(r"\prod_{n=1}^\infty \left(1 + \frac{1}{n^2}\right)", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
         self.play(FadeIn(problem, shift=DOWN))
         self.play(problem.animate.scale(1.3))
         self.wait(3)
+
 
         # Remove title and problem with a fading effect
         self.play(FadeOut(title), FadeOut(problem))

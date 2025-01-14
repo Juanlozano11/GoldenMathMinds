@@ -1,4 +1,4 @@
-## Path: cd Desktop/Math/GoldenMathMinds/projects/video15
+## Path: cd Desktop/Math/GoldenMathMinds/projects/video16
 ## run: manim -pql formula.py AnotherMathVisualization
 
 from manim import *
@@ -12,11 +12,12 @@ class AnotherMathVisualization(Scene):
         # Move title up and enlarge it slightly
         self.play(title.animate.shift(UP * 2).scale(1.3))
 
-        # Display a new math equation with gradient color
-        problem = MathTex(r"\int_0^\infty e^{-x^2} \ ", font_size=48).set_color_by_gradient(TEAL_B, GREEN, YELLOW)
+       # Display a new math equation with gradient color
+        problem = MathTex(r"\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}", font_size=48).set_color_by_gradient(BLUE, PURPLE, PINK)
         self.play(FadeIn(problem, shift=DOWN))
         self.play(problem.animate.scale(1.3))
         self.wait(3)
+
 
         # Remove title and problem with a fading effect
         self.play(FadeOut(title), FadeOut(problem))
