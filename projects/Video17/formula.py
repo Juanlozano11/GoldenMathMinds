@@ -6,7 +6,7 @@ from manim import *
 class AnotherMathVisualization(Scene):
     def construct(self):
         # Title text: "Ready for a challenge?" with gradient color
-        title = Text("Solution!!", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
+        title = Text("Ready for a challenge?", font_size=48).set_color_by_gradient(ORANGE, YELLOW, RED)
         self.play(Write(title))
         
         # Move title up and enlarge it slightly
