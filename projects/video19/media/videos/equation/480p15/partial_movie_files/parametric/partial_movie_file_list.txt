@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/1185818338_1350374252_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_570486349_102824224.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2536175139_2398939007.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2235182671_177731377.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2260459343_1322872769.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3998606727_1652460338.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3149380014_852843978.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3394500337_172884235.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2066880718_4054051450.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3366045169_4112380284.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2900786996_4041680241.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video19/media/videos/equation/480p15/partial_movie_files/parametric/624642324_1433877407_2340768568.mp4'
