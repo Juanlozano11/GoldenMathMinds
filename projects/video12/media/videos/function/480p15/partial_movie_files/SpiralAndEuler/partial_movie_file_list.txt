@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/1185818338_1559509328_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_3390523739_3686898426.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_633767820_2663099343.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_3890345977_2620241191.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_2601439345_3216331153.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_2354374403_2371579744.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_2638400126_483630703.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video12/media/videos/function/480p15/partial_movie_files/SpiralAndEuler/624642324_1704852926_414806875.mp4'

@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/1185818338_142368652_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_1887457851_1651514293.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2536175139_4243275978.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_1989753184_98184431.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_1320337209_1322872769.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3998606727_2288880070.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3149380014_4000764373.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3394500337_4054739820.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2066880718_1223765009.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_3366045169_3574171201.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_2900786996_4041680241.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video20/media/videos/equation/480p15/partial_movie_files/parametric/624642324_1433877407_3041013497.mp4'

@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/1185818338_420446514_223132457.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_781456745_538290996.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_3118265782_3639219578.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_2966919182_932630766.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_170164039_4211109462.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_3220553507_2144337370.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_2414826448_3151475252.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_1959358871_3389179855.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_185998480_51943113.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_2354374403_4204261076.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_3501248348_1360405783.mp4'
+file 'file:/Users/juanlozano/Desktop/Math/GoldenMathMinds/projects/video06/media/videos/ParametricFunction/480p15/partial_movie_files/AnimatedButterflyCurve/624642324_4207674275_474528093.mp4'
